@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/aryapmock.png";
+import Img2 from "../assets/speakstu.png";
+import Img3 from "../assets/mock.jpg";
+
 const Work = () => {
   return (
     <div className="section" id="work">
@@ -51,15 +52,17 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Front-End Development</span>
+                <span className="text-gradient">Front-End Web Development</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">Aryap Yapı Tasarım</span>
               </div>
-              <button className="btn btn-sm absolute -bottom-full right-12 group-hover:bottom-10 transition-all duration-300 z-50">
-                More
-              </button>
+              <a href="https://aryaptasarim.com/">
+                <button className="btn btn-sm absolute -bottom-full right-12 group-hover:bottom-10 transition-all duration-300 z-50">
+                  More
+                </button>
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -87,15 +90,19 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Front-End Development</span>
+                <span className="text-gradient">
+                  Flutter Mobile App Development
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">SpeakSTU Mobile App</span>
               </div>
-              <button className="btn btn-sm absolute -bottom-full right-12 group-hover:bottom-10 transition-all duration-300 z-50">
-                More
-              </button>
+              <a href="https://www.speakstu.com/">
+                <button className="btn btn-sm absolute -bottom-full right-12 group-hover:bottom-10 transition-all duration-300 z-50">
+                  More
+                </button>
+              </a>
             </div>
             <div
               className="group relative overflow-hidden border-2
