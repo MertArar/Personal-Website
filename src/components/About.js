@@ -37,10 +37,14 @@ const About = () => {
             <h3 className="h3 mb-4">
               I'm a front-end Developer with over 4 years of experience
             </h3>
-            <p className="mb-6">
-              Lorem ipsum dolor sit amet, sed ullum omittam suscipiantur ut, mei
-              ex inani dicit. No constituam persequeris concludaturque ius. Mel
-              in viderer persecuti suscipiantur.
+            <p className="mb-6 text-justify">
+              I have been developing myself in different areas since the
+              beginning of my school life. I am a front-end web developer with
+              Reactjs. However, my knowledge of HTML, CSS, and Javascript is
+              quite high. I also took part in the development of a mobile game
+              using Unity 3D for our university's graduation project. We
+              integrated this game into the mobile application we developed with
+              Flutter.
             </p>
             {/* Stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -67,8 +71,8 @@ const About = () => {
                   {inView ? <CountUp starts={0} end={5} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br />
-                  Clients
+                  Language <br />
+                  Experienced
                 </div>
               </div>
             </div>
@@ -76,9 +80,6 @@ const About = () => {
             <div className="flex gap-x-8 items-center">
               <a href="#contact">
                 <button className="btn btn-lg">Contact me</button>
-              </a>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
               </a>
             </div>
           </motion.div>

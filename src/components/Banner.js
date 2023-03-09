@@ -59,12 +59,13 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-justify"
             >
-              Id diam vel quam elementum pulvinar etiam non quam lacus
-              suspendisse faucibus interdum posuere lorem ipsum dolor sit amet
-              consectetur adipiscing elit duis tristique sollicitudin nibh sit
-              amet commodo nulla facilisi nullam vehicula ipsum{" "}
+              I graduated from Atılım University, Department of Software
+              Engineering. Although I started my software development career as
+              a mobile application developer, I am currently a web developer. I
+              do software development with React and Tailwind Css. During this
+              time, I continue to develop and learn myself in new areas.{" "}
             </motion.p>
 
             <motion.div

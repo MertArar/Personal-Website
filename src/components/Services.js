@@ -10,25 +10,25 @@ const services = [
   {
     name: "HTML, CSS, JavaScript",
     description:
-      "Solum elitr feugait qui ut. Qui cu novum doming, ut cum laudem delicata, minim delicata quo ex. Eam agam fuisset referrentur no, ei sit minim ornatus. Sensibus rationibus ex sed, id sale delenit epicurei eos.",
+      "During my first internship period, I learned about HTML, CSS and JavaScript and developed a website. I study these languages, which are the skeleton of web development, at the level of expertise.",
     link: "Learn more",
   },
   {
     name: "Reactjs",
     description:
-      "Solum elitr feugait qui ut. Qui cu novum doming, ut cum laudem delicata, minim delicata quo ex. Eam agam fuisset referrentur no, ei sit minim ornatus. Sensibus rationibus ex sed, id sale delenit epicurei eos.",
+      "Worked with Reactjs in my second internship. I have developed and continue to develop many sites, including this site, with Reactjs. The primary framework I use is Reactjs.",
     link: "Learn more",
   },
   {
     name: "Unity 3D",
     description:
-      "Solum elitr feugait qui ut. Qui cu novum doming, ut cum laudem delicata, minim delicata quo ex. Eam agam fuisset referrentur no, ei sit minim ornatus. Sensibus rationibus ex sed, id sale delenit epicurei eos.",
+      "In the university graduation project, we integrated the mobile game we developed with Unity 3D into the mobile application that we developed with my team.",
     link: "Learn more",
   },
   {
     name: "Flutter",
     description:
-      "Solum elitr feugait qui ut. Qui cu novum doming, ut cum laudem delicata, minim delicata quo ex. Eam agam fuisset referrentur no, ei sit minim ornatus. Sensibus rationibus ex sed, id sale delenit epicurei eos.",
+      "I worked as a front-end chief in developing a social media mobile application for students with the Flutter framework in our university's graduation project. I can say that I have good experience in Flutter",
     link: "Learn more",
   },
 ];
@@ -48,7 +48,11 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Front-End Developer with over 4 years of experience
+              I'm a Front-End Developer with over 4 years of experience <br />{" "}
+              <br />I continue to develop myself in different fields. It is not
+              for me to count in place.
+              <br /> <br /> You can take a look at the projects that I have
+              developed
             </h3>
             <a href="#work">
               <button className="btn btn-sm">See my work</button>

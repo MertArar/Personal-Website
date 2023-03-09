@@ -6,8 +6,7 @@ const Nav = () => {
   const menuLinks = [
     { name: "HOME", link: "#home" },
     { name: "ABOUT", link: "#about" },
-    { name: "EXPERIENCE", link: "#services" },
-    { name: "SKILLS", link: "#skills" },
+    { name: "SKILLS", link: "#services" },
     { name: "PROJECTS", link: "#work" },
     { name: "CONTACT", link: "#contact" },
   ];
