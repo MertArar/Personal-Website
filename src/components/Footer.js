@@ -17,7 +17,7 @@ export const Footer = () => {
     >
       Copyright &copy; 2023 Mert Arar. All rights reserved.
       <div
-        className=" text-[20px] flex place-content-center mt-2 max-w-full gap-x-6  mx-auto
+        className=" text-[20px] flex place-content-center max-w-full gap-x-6  mx-auto
               lg:mx-0 "
       >
         <a href="https://github.com/MertArar">
